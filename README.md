@@ -1,6 +1,7 @@
 # GitHub action to automatically rebase PRs
 
-[![Build Status](https://api.cirrus-ci.com/github/cirrus-actions/rebase.svg)](https://cirrus-ci.com/github/cirrus-actions/rebase) [![](https://images.microbadger.com/badges/version/cirrusactions/rebase.svg)](https://microbadger.com/images/cirrusactions/rebase) [![](https://images.microbadger.com/badges/image/cirrusactions/rebase.svg)](https://microbadger.com/images/cirrusactions/rebase)
+[![Build Status](https://api.cirrus-ci.com/github/cirrus-actions/rebase.svg)](https://cirrus-ci.com/github/cirrus-actions/rebase) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDeydeq%2Frebase.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FDeydeq%2Frebase?ref=badge_shield)
+[![](https://images.microbadger.com/badges/version/cirrusactions/rebase.svg)](https://microbadger.com/images/cirrusactions/rebase) [![](https://images.microbadger.com/badges/image/cirrusactions/rebase.svg)](https://microbadger.com/images/cirrusactions/rebase)
 
 After installation simply comment `/rebase` to trigger the action:
 
@@ -36,3 +37,7 @@ jobs:
       - name: Always run
         run: echo "This job is used to prevent the workflow to fail when all other jobs are skipped."
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDeydeq%2Frebase.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FDeydeq%2Frebase?ref=badge_large)
